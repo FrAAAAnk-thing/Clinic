@@ -21,7 +21,7 @@ const Login = () => {
           {
             state === "Sign Up" && <div className='w-full'>
             <p>Full Name</p>
-            <input className='border border-zinc-300 rounded w-full p-2 mt-1' type="text" onChange={(e)=>setName(e.target.name)} value={name} required/>
+            <input type="text" className='border border-zinc-300 rounded w-full p-2 mt-1' onChange={(e)=>setName(e.target.value)} value={name} required/>
             </div>
           }
           
